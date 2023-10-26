@@ -7,15 +7,16 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
 	},
+	"runArgs": ["--add-host=host.docker.internal:host-gateway"]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "poetry shell"
+	//"postCreateCommand": "poetry install"
+	
 
 	// Configure tool-specific properties.
 	// "customizations": {},

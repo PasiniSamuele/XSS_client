@@ -1,0 +1,1 @@
+<form onreset="alert(1)"><input type=reset>
