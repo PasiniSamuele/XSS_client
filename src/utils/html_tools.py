@@ -18,7 +18,7 @@ def get_parse_tree(html):
 def get_distance_between_htmls(html_1, html_2):
     dom_tree_1 = get_parse_tree(html_1)
     dom_tree_2 = get_parse_tree(html_2)
-    distance =  simple_distance(dom_tree_1, dom_tree_2)
+    distance = simple_distance(dom_tree_1, dom_tree_2)
     return distance
 
 def is_same_dom(html_1, html_2):
